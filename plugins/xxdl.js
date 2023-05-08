@@ -32,7 +32,7 @@ switch (type) {
    try {
   let xn = await (await fetch(global.API('fgmods', '/api/xnxxdl', { url: text }, 'apikey'))).json()
   conn.sendFile(m.chat, xn.result.files.high, xn.result.title + '.mp4', `
- ≡  *XNXX DL*
+ ≡  *වැල්*
   
 ▢ *📌Title*: ${xn.result.title}
 ▢ *⌚Duration:* ${xn.result.duration}
@@ -52,6 +52,6 @@ handler.tags = ['nsfw', 'prem']
 handler.command = ['xnxxsearch', 'xnxxdl', 'xnxx'] 
 handler.diamond = false
 handler.premium = false
-handler.register = true
+handler.register = false
 
 export default handler
