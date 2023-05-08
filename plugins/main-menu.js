@@ -40,7 +40,7 @@ let pp = './Guru.jpg'
 ┣ *💎 Diamonds:* ${diamond}
 ┣ *🎟️ Premium:* ${user.premium = 'true' ? '❌' : '✅'}
 ┗━━━━━━━━━━━━━━━━┛`, pp, 
-      ['⌬ MENU LIST', `${usedPrefix}list`]
+      ['MENU', `${usedPrefix}list`]
     ,m, rpyt)
     //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
    
